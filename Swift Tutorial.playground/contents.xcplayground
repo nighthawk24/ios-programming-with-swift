@@ -4,11 +4,10 @@
         <page name='Variables and Constants'/>
         <page name='Basic Operators'/>
         <page name='Optionals'/>
-        <page name='Error Handling'/>
         <page name='Collections &amp; Control Flow'/>
         <page name='Functions'/>
-        <page name='Closures'/>
         <page name='Classes and Structs'/>
-        <page name='Enums'/>
+        <page name='Closures'/>
+        <page name='Error Handling'/>
     </pages>
 </playground>

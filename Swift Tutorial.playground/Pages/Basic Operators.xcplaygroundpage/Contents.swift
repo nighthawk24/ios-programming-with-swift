@@ -1,38 +1,44 @@
 //: [Previous](@previous)
-
 import Foundation
-
-var str = "Hello, playground"
-
-var numberOfCows = 1
-numberOfCows++
-++numberOfCows
-var negativeNumber = -3
-negativeNumber *= 4
-
-
-
-let variable = true ? "yes" : "no"
-
-1...5
-1..<5
 //: Basic Operators
 /*:
-
+Assignment
 * =
+
+Arithmetic
 * +, -, *, /
+
+Modulus
 * %
+
+Unary
 * ++, -- (postfix or prefix)
 * \-
+
+Compound
 * *=, /=, %=, +=, -=
+
+Comparison
 * <, <=, >, >=, ==, !=
+
+Ternary
 * ?:
 
-* ??
-* ...
-* ..<
+Logical
 * !, &&, ||
 
+Optionals
+* ??
+* ?.
+* !.
+
+Intervals
+* ...
+* ..<
+
+
 */
+
+
 
 //: [Next](@next)
