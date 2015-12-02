@@ -22,9 +22,37 @@ Classes have additional capabilities that structures do not:
 //Person Class
 
 
+class Person  {
+    var firstName: String
+    var lastName: String
+    
+    init(firstName: String, lastName: String) {
+        self.firstName = firstName
+        self.lastName = lastName
+    }
+}
 
+class Employee: Person {
+    var role: String
+    
+    init(firstName: String, lastName: String, role: String) {
+        self.role = role
+        super.init(firstName: firstName, lastName: lastName)
+    }
+    
+    func printInfo() {
+        print("\(firstName) is a \(role)")
+    }
+}
 
+let emp1 = Employee(firstName: "Karan", lastName: "Shah", role: "Software Engineer")
+emp1.printInfo()
+emp1.role = "iOS Software Engineer"
 
+let emp2 = emp1
+emp2.firstName = "Ryan"
+emp2.printInfo()
+emp1.printInfo()
 
 
 
@@ -59,10 +87,23 @@ Reference types are copied when they are assigned to a variable or constant, or 
 A value type is a type whose value is copied when it is assigned to a variable or constant, or when it is passed to a function.
 */
 
+struct Gift {
+    let name: String
+    var value: Int
+    var place: String
+    
+    func description() {
+        print(name)
+    }
+}
 
-
-
-
+var gift1 = Gift(name: "iPhone 6s", value: 700, place: "Apple")
+gift1.description()
+var gift2 = gift1
+gift2.description()
+//gift2.name = "iPad"
+gift2.description()
+gift1.description()
 
 
 //: [Next](@next)

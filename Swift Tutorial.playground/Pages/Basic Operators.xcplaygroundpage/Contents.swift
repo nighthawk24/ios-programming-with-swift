@@ -39,6 +39,20 @@ Intervals
 
 */
 
+var count = 1
+count++
+count
+++count
+--count
+-count
+count = -count
+count *= 5
+print ( 5 > 7)
 
+var isTrue = false
+var someString = isTrue ? "Yes" : "No"
+
+1...5
+1..<5
 
 //: [Next](@next)

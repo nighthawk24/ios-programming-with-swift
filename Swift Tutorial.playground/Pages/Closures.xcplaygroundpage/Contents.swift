@@ -15,8 +15,9 @@ statements
 */
 let names = ["Chris", "Alex", "Ewa", "Barry", "Daniella"]
 
+var reversed = names.sort { (s1, s2) in s1 > s2 }
 
-
+print(reversed)
 
 
 
@@ -37,8 +38,11 @@ If you use these shorthand argument names within your closure expression, you ca
 */
 
 
+var anotherRev = names.sort { $0.characters.count > $1.characters.count }
+print(anotherRev)
 
-
+var rev2 = names.sort(>)
+print(rev2)
 
 
 
