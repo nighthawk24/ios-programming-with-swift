@@ -3,26 +3,11 @@
 import Foundation
 
 //: # Functions
-func hello() -> String {
-    return "Hello World!"
-}
-print(hello())
 
-func sayHello(personName: String) -> String {
-    let greeting = "Hello, \(personName)"
-    return greeting
-}
-print(sayHello("john"))
 
-func sayHello(personName: String, alreadyGreeted: Bool) {
-    if alreadyGreeted {
-        print("Welcome back \(personName)")
-    } else {
-        print(sayHello(personName))
-    }
-    
-}
-sayHello("Jethro")
+
+
+
 
 
 
