@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' display-mode='rendered'>
+    <pages>
+        <page name='Variables and Constants'/>
+        <page name='Basic Operators'/>
+        <page name='Optionals'/>
+        <page name='Error Handling'/>
+        <page name='Collections &amp; Control Flow'/>
+        <page name='Functions'/>
+        <page name='Closures'/>
+        <page name='Classes and Structs'/>
+        <page name='Enums'/>
+    </pages>
+</playground>
